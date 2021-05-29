@@ -1,0 +1,72 @@
+.header {
+    height: 150px;
+    background-color: rgb(50, 174, 177);
+    display: flex;
+    align-items: center;
+  }
+  /*-- netmeds logo--*/
+  .header_logo {
+    width: 200px;
+    margin-top: 20px;
+    margin: 0 60px;
+  } /*--search box--*/
+  .header_search {
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .header_searchInput {
+    height: 26px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    width: 800px;
+    margin-bottom: 20px;
+  }
+  /*--search icon--*/
+  .header_searchIcon {
+    padding: 11px;
+    height: 20px;
+    background-color: #f4f7fb;
+  }
+  /*--offer,user,cart--*/
+  .header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: white;
+  }
+  
+  /*--medicine,wellness,diagnostic--*/
+  .header_nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main_navigation {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav_option {
+    display: flex;
+  }
+  .nav_optionOne {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  small {
+    font-size: 13px;
+  }
+  .medicine {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
